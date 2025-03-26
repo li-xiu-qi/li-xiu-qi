@@ -8,7 +8,7 @@
 <!-- 新增社交媒体徽章 -->
 <p align="center">
     <a href="https://github.com/li-xiu-qi"><img src="https://img.shields.io/badge/GitHub-li--xiu--qi-brightgreen" alt="GitHub"/></a>
-    <a href="#wechat"><img src="https://img.shields.io/badge/WeChat-Contact_Me-07C160?logo=wechat" alt="Wechat"/></a>
+    <a href="images/wechat.jpg"><img src="https://img.shields.io/badge/WeChat-Contact_Me-07C160?logo=wechat" alt="Wechat"/></a>
     <a href="https://www.zhihu.com/people/18-61-35-98"><img src="https://img.shields.io/badge/知乎-Li_Xiu_Qi-0084FF?logo=zhihu" alt="Zhihu"/></a>
 </p>
 
