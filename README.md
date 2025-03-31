@@ -1,21 +1,26 @@
-<div align="center">
+<div align="center" style="background: linear-gradient(to bottom, #1a1a2e, #16213e, #0f3460); color: #e7e7e7; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <!-- 访问次数统计 -->
-  <img src="https://profile-counter.glitch.me/li-xiu-qi/count.svg" alt="Visitor Count" />
+  <div style="background: rgba(255,255,255,0.1); padding: 10px; border-radius: 8px; margin-bottom: 15px;">
+    <img src="https://profile-counter.glitch.me/li-xiu-qi/count.svg" alt="Visitor Count" />
+  </div>
 
-  <h1>嗨，我是 Li Xiu Qi 👋</h1>
+  <h1 style="color: #ff9a8b; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); font-size: 2.5em; margin-bottom: 20px;">✨ 嗨，我是 Li Xiu Qi 👋</h1>
 
   <!-- 社交媒体徽章 -->
-  <p>
-    <a href="https://github.com/li-xiu-qi"><img src="https://img.shields.io/badge/GitHub-li--xiu--qi-brightgreen" alt="GitHub"/></a>
-    <a href="images/wechat.jpg"><img src="https://img.shields.io/badge/WeChat-Contact_Me-07C160?logo=wechat" alt="Wechat"/></a>
-    <a href="https://www.zhihu.com/people/18-61-35-98"><img src="https://img.shields.io/badge/知乎-Li_Xiu_Qi-0084FF?logo=zhihu" alt="Zhihu"/></a>
+  <p style="display: flex; justify-content: center; gap: 15px; margin: 25px 0;">
+    <a href="https://github.com/li-xiu-qi" style="text-decoration: none; transition: transform 0.3s ease;"><img src="https://img.shields.io/badge/GitHub-li--xiu--qi-brightgreen?style=for-the-badge&logo=github" alt="GitHub"/></a>
+    <a href="images/wechat.jpg" style="text-decoration: none; transition: transform 0.3s ease;"><img src="https://img.shields.io/badge/WeChat-Contact_Me-07C160?style=for-the-badge&logo=wechat" alt="Wechat"/></a>
+    <a href="https://www.zhihu.com/people/18-61-35-98" style="text-decoration: none; transition: transform 0.3s ease;"><img src="https://img.shields.io/badge/知乎-Li_Xiu_Qi-0084FF?style=for-the-badge&logo=zhihu" alt="Zhihu"/></a>
   </p>
 
+  <!-- 分隔线 -->
+  <div style="width: 80%; height: 3px; background: linear-gradient(to right, transparent, #ff9a8b, transparent); margin: 20px auto;"></div>
+
   <!-- GitHub 统计 - 使用表格并排显示 -->
-  <table>
+  <table style="background: rgba(0,0,0,0.2); border-radius: 12px; padding: 10px; border-collapse: separate; border-spacing: 15px; margin: 0 auto;">
     <tr>
-      <td><img src="https://github-readme-stats.vercel.app/api?username=li-xiu-qi&show_icons=true&theme=radical" alt="GitHub Stats" /></td>
-      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=li-xiu-qi&layout=compact&theme=radical" alt="Top Languages" /></td>
+      <td style="padding: 0; border: none;"><img src="https://github-readme-stats.vercel.app/api?username=li-xiu-qi&show_icons=true&theme=radical&border_radius=10&bg_color=1a1a2e&border_color=ff9a8b&title_color=ff9a8b" alt="GitHub Stats" /></td>
+      <td style="padding: 0; border: none;"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=li-xiu-qi&layout=compact&theme=radical&border_radius=10&bg_color=1a1a2e&border_color=ff9a8b&title_color=ff9a8b" alt="Top Languages" /></td>
     </tr>
   </table>
 </div>
