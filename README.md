@@ -12,6 +12,12 @@
     <a href="https://www.zhihu.com/people/18-61-35-98"><img src="https://img.shields.io/badge/知乎-Li_Xiu_Qi-0084FF?logo=zhihu" alt="Zhihu"/></a>
 </p>
 
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=li-xiu-qi&show_icons=true&theme=radical" alt="GitHub Stats" />
+
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=li-xiu-qi&layout=compact&theme=radical" alt="Top Languages" />
+</div>
+
 <!-- <p align="center" id="wechat">
     <img src="images/wechat.jpg" alt="Wechat QR Code" width="150" />
 </p> -->
@@ -33,12 +39,6 @@ Here are some ideas to get you started:
 
 - **语言:** Python, JavaScript，Rust
 - **框架:** Fastapi, React -->
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=li-xiu-qi&show_icons=true&theme=radical)
-
-<!-- 新增常用语言占比 -->
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=li-xiu-qi)](https://github.com/li-xiu-qi/github-readme-stats)
 
 <!--
 Here are some ideas to get you started:
