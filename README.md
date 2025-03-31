@@ -4,12 +4,14 @@
     <img src="https://profile-counter.glitch.me/li-xiu-qi/count.svg" alt="Visitor Count" />
   </div>
 
-  <h1 style="color: #ff9a8b; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); font-size: 2.5em; margin-bottom: 20px;">✨ 嗨，我是 Li Xiu Qi 👋</h1>
+  <div style="width: 100%;">
+    <img src="images/hello.svg" style="width: 100%;" alt="Hello everyone">
+  </div>
 
   <!-- 社交媒体徽章 -->
   <p style="display: flex; justify-content: center; gap: 15px; margin: 25px 0;">
-    <a href="https://github.com/li-xiu-qi" style="text-decoration: none; transition: transform 0.3s ease;"><img src="https://img.shields.io/badge/GitHub-li--xiu--qi-brightgreen?style=for-the-badge&logo=github" alt="GitHub"/></a>
-    <a href="images/wechat.jpg" style="text-decoration: none; transition: transform 0.3s ease;"><img src="https://img.shields.io/badge/WeChat-Contact_Me-07C160?style=for-the-badge&logo=wechat" alt="Wechat"/></a>
+    <a href="https://github.com/li-xiu-qi" style="text-decoration: none; transition: transform 0.3s ease;"><img src="https://img.shields.io/badge/GitHub-Li_Xiu_Qi-brightgreen?style=for-the-badge&logo=github" alt="GitHub"/></a>
+    <a href="images/wechat.jpg" style="text-decoration: none; transition: transform 0.3s ease;"><img src="https://img.shields.io/badge/WeChat-Li_Xiu_Qi-07C160?style=for-the-badge&logo=wechat" alt="Wechat"/></a>
     <a href="https://www.zhihu.com/people/18-61-35-98" style="text-decoration: none; transition: transform 0.3s ease;"><img src="https://img.shields.io/badge/知乎-Li_Xiu_Qi-0084FF?style=for-the-badge&logo=zhihu" alt="Zhihu"/></a>
   </p>
 
