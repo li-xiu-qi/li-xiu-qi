@@ -1,9 +1,9 @@
 <div align="center" style="background: linear-gradient(to bottom, #1a1a2e, #16213e, #0f3460); color: #e7e7e7; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-  <!-- 访问次数统计 -->
+  <!-- 访问次数统计
   <div style="background: rgba(255,255,255,0.1); padding: 10px; border-radius: 8px; margin-bottom: 15px;">
     <img src="https://profile-counter.glitch.me/li-xiu-qi/count.svg" alt="Visitor Count" />
   </div>
-
+ -->
   <div style="width: 100%;">
     <img src="images/hello.svg" style="width: 100%;" alt="Hello everyone">
   </div>
