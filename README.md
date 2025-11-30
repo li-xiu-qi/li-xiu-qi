@@ -18,6 +18,12 @@
   <!-- 分隔线 -->
   <div style="width: 80%; height: 3px; background: linear-gradient(to right, transparent, #ff9a8b, transparent); margin: 20px auto;"></div>
 
+  <!-- ## 关于我 -->
+  <h2 align="center">👋 关于我</h2>
+  <p align="center">你好！我是李秀奇，可以叫我筱可（xiaoke），一名热爱编程的开发者。我专注于Python、JavaScript和Rust等语言，主要使用FastAPI和React框架。我非常擅长RAG系统开发、Agent系统开发、多模态Agent或RAG系统开发。我也会大语言模型（LLM）的微调和预训练（我曾复现过<a href="https://github.com/datawhalechina/code-your-own-llm/blob/main/docs/Chapter08/SFT.md">nanochat的LLM预训练流程</a>），以及多模态模型的微调（如<a href="https://github.com/datawhalechina/self-llm/blob/master/models/Qwen3-VL/05-Qwen3-VL-4B-Instruct%20%20Lora%20%E5%8F%AF%E8%A7%86%E5%8C%96%E5%BE%AE%E8%B0%83%E6%A1%88%E4%BE%8B%20-%20LaTexOCR.md">self-llm的Qwen3-VL-4B-Instruct LoRA 可视化微调案例 - LaTeXOCR</a>）和embedding模型的微调（如<a href="https://github.com/datawhalechina/self-llm/blob/master/models/BGE-M3-finetune-embedding-with-valid/README.md">代码检索场景微调实战，基于pytorch微调BGE-M3 embedding模型</a>）。欢迎交流和合作！</p>
+
+  <!-- TOP-REPOS-LIST -->
+
   <!-- ## Stat -->
 
   <div align="center">
