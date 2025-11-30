@@ -22,21 +22,6 @@
   <h2 align="center">👋 关于我</h2>
   <p align="center">你好！我是李秀奇，可以叫我筱可（xiaoke），一名热爱编程的开发者。我专注于Python、JavaScript和Rust等语言，主要使用FastAPI和React框架。我非常擅长RAG系统开发、Agent系统开发、多模态Agent或RAG系统开发。我也会大语言模型（LLM）的微调和预训练（我曾复现过<a href="https://github.com/datawhalechina/code-your-own-llm/blob/main/docs/Chapter08/SFT.md">nanochat的LLM预训练流程</a>），以及多模态模型的微调（如<a href="https://github.com/datawhalechina/self-llm/blob/master/models/Qwen3-VL/05-Qwen3-VL-4B-Instruct%20%20Lora%20%E5%8F%AF%E8%A7%86%E5%8C%96%E5%BE%AE%E8%B0%83%E6%A1%88%E4%BE%8B%20-%20LaTexOCR.md">self-llm的Qwen3-VL-4B-Instruct LoRA 可视化微调案例 - LaTeXOCR</a>）和embedding模型的微调（如<a href="https://github.com/datawhalechina/self-llm/blob/master/models/BGE-M3-finetune-embedding-with-valid/README.md">代码检索场景微调实战，基于pytorch微调BGE-M3 embedding模型</a>）。欢迎交流和合作！</p>
 
-  ## 🌟 Top Starred Repositories
-
-- [obsidian-podcast-core](https://github.com/li-xiu-qi/obsidian-podcast-core) - Podcast Core (0 stars)
-- [obsidian-releases](https://github.com/li-xiu-qi/obsidian-releases) - Community plugins list, theme list, and releases of Obsidian. (0 stars)
-- [obsidian-auto-tags](https://github.com/li-xiu-qi/obsidian-auto-tags) - Obsidian 插件 auto tags（auto tags, an Obsidian plugin），可借助大语言模型（LLM）一键为文档生成标签；它会分析当前编辑文档内容及历史已用标签，返回最多 5 个相关历史标签并生成最多 3 个全新建议标签（Leverages LLMs to generate tags with one click, returning up to 5 relevant existing tags and 3 new suggested tags by analyzing current document content and historical tags）。 (2 stars)
-- [obsidian-ai-tagger](https://github.com/li-xiu-qi/obsidian-ai-tagger) - Simplify tagging in Obsidian. Instantly analyze and tag your document with one click for efficient note organization.  (0 stars)
-- [InternLM-XComposer](https://github.com/li-xiu-qi/InternLM-XComposer) - InternLM-XComposer2.5-OmniLive: A Comprehensive Multimodal System for Long-term Streaming Video and Audio Interactions (0 stars)
-- [AI-Web-Base](https://github.com/li-xiu-qi/AI-Web-Base) - A minimal AI web full stack template(一个最小化的 AI 全栈开发模板,，支持docker). (7 stars)
-- [code-your-own-llm](https://github.com/li-xiu-qi/code-your-own-llm) - 一份全栈式大语言模型参考指南，用最简洁的代码帮助你端到端定义模型从零训练到工程落地的每一个细节 (0 stars)
-- [nanochat](https://github.com/li-xiu-qi/nanochat) - The best ChatGPT that $100 can buy. (0 stars)
-- [Smart-Emergency-Response](https://github.com/li-xiu-qi/Smart-Emergency-Response) - 2025“大运河杯”数据开发应用创新大赛——智慧应急赛道 baseline (4 stars)
-- [agents-course](https://github.com/li-xiu-qi/agents-course) - This repository contains the Hugging Face Agents Course.  (0 stars)
-
-<!-- TOP-REPOS-LIST -->
-
   <!-- ## Stat -->
 
   <div align="center">
@@ -45,6 +30,8 @@
   <!-- ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=li-xiu-qi&theme=buefy) -->
 
   </div>
+
+<!-- TOP-REPOS-LIST -->
 </div>
 
 <!-- 其他已注释内容保持不变 -->

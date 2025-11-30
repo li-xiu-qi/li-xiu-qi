@@ -55,6 +55,9 @@ jobs:
               console.log('README not found, creating new one');
             }
 
+            // 删除旧的列表（如果存在）
+            readmeContent = readmeContent.replace(/## 🌟 Top Starred Repositories[\s\S]*?<!-- TOP-REPOS-LIST -->/g, '<!-- TOP-REPOS-LIST -->');
+
             // 替换或添加列表（假设有占位符<!-- TOP-REPOS-LIST -->）
             const placeholder = '<!-- TOP-REPOS-LIST -->';
             if (readmeContent.includes(placeholder)) {
