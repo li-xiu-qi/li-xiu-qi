@@ -21,8 +21,17 @@
   <!-- ## 关于我 -->
   <h2 align="center">👋 关于我</h2>
   <p align="center">你好！我是李秀奇，可以叫我筱可（xiaoke），一名热爱编程的开发者。我专注于Python、JavaScript和Rust等语言，主要使用FastAPI和React框架。我非常擅长RAG系统开发、Agent系统开发、多模态Agent或RAG系统开发。我也会大语言模型（LLM）的微调和预训练（我曾复现过<a href="https://github.com/datawhalechina/code-your-own-llm/blob/main/docs/Chapter08/SFT.md">nanochat的LLM预训练流程</a>），以及多模态模型的微调（如<a href="https://github.com/datawhalechina/self-llm/blob/master/models/Qwen3-VL/05-Qwen3-VL-4B-Instruct%20%20Lora%20%E5%8F%AF%E8%A7%86%E5%8C%96%E5%BE%AE%E8%B0%83%E6%A1%88%E4%BE%8B%20-%20LaTexOCR.md">self-llm的Qwen3-VL-4B-Instruct LoRA 可视化微调案例 - LaTeXOCR</a>）和embedding模型的微调（如<a href="https://github.com/datawhalechina/self-llm/blob/master/models/BGE-M3-finetune-embedding-with-valid/README.md">代码检索场景微调实战，基于pytorch微调BGE-M3 embedding模型</a>）。欢迎交流和合作！</p>
+  <!-- ## Stat -->
 
-  ## 🌟 Top Starred Repositories
+  <div align="center">
+  
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=li-xiu-qi&theme=buefy)![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=li-xiu-qi&theme=buefy)![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=li-xiu-qi&theme=buefy&utcOffset=8)![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=li-xiu-qi&theme=buefy)
+  <!-- ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=li-xiu-qi&theme=buefy) -->
+
+  </div>
+
+<div style="text-align: left;">
+## 🌟 Top Starred Repositories
 
 - [data_analysis_agent](https://github.com/li-xiu-qi/data_analysis_agent) - 数据分析智能体 (Data Analysis Agent)：基于LLM的智能数据分析智能体 (122 stars)
 - [financial_research_report](https://github.com/li-xiu-qi/financial_research_report) - 金融多模态研究报告生成 (107 stars)
@@ -35,14 +44,7 @@
 - [gen_financial_report](https://github.com/li-xiu-qi/gen_financial_report) - 公司、行业、宏观多模态金融研报生成。 (11 stars)
 - [remote_pdf_parse_serve](https://github.com/li-xiu-qi/remote_pdf_parse_serve) - 基于mineru封装的远程pdf解析服务。 (11 stars)
 
-  <!-- ## Stat -->
-
-  <div align="center">
-  
-  ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=li-xiu-qi&theme=buefy)![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=li-xiu-qi&theme=buefy)![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=li-xiu-qi&theme=buefy&utcOffset=8)![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=li-xiu-qi&theme=buefy)
-  <!-- ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=li-xiu-qi&theme=buefy) -->
-
-  </div>
+</div>
 
 <!-- TOP-REPOS-LIST -->
 </div>
