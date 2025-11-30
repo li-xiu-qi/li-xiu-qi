@@ -35,8 +35,11 @@ jobs:
             const repos = allRepos.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 10);
 
             let repoList = '## 🌟 Top Starred Repositories\n\n';
+            repoList += '| Repository | Description | Stars |\n';
+            repoList += '|------------|-------------|-------|\n';
             repos.forEach(repo => {
-              repoList += `- [${repo.name}](${repo.html_url}) - ${repo.description || 'No description'} (${repo.stargazers_count} stars)\n`;
+              const desc = repo.description || 'No description';
+              repoList += `| [${repo.name}](${repo.html_url}) | ${desc} | ${repo.stargazers_count} |\n`;
             });
 
             // 读取当前README
