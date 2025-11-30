@@ -33,12 +33,14 @@ jobs:
             // 读取当前README
             const readmePath = 'README.md';
             let readmeContent = '';
+            let readmeData;
             try {
-              const { data: readmeData } = await github.rest.repos.getContent({
+              const { data: data } = await github.rest.repos.getContent({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 path: readmePath
               });
+              readmeData = data;
               readmeContent = Buffer.from(readmeData.content, 'base64').toString('utf-8');
             } catch (error) {
               console.log('README not found, creating new one');
