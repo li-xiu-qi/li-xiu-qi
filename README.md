@@ -35,15 +35,6 @@
 - [gen_financial_report](https://github.com/li-xiu-qi/gen_financial_report) - 公司、行业、宏观多模态金融研报生成。 (11 stars)
 - [remote_pdf_parse_serve](https://github.com/li-xiu-qi/remote_pdf_parse_serve) - 基于mineru封装的远程pdf解析服务。 (11 stars)
 
-  <!-- ## Stat -->
-
-  <div align="center">
-  
-  ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=li-xiu-qi&theme=buefy)![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=li-xiu-qi&theme=buefy)![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=li-xiu-qi&theme=buefy&utcOffset=8)![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=li-xiu-qi&theme=buefy)
-  <!-- ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=li-xiu-qi&theme=buefy) -->
-
-  </div>
-
 <!-- TOP-REPOS-LIST -->
 </div>
 
