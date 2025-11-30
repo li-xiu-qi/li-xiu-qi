@@ -18,13 +18,14 @@
   <!-- 分隔线 -->
   <div style="width: 80%; height: 3px; background: linear-gradient(to right, transparent, #ff9a8b, transparent); margin: 20px auto;"></div>
 
-  <!-- GitHub 统计 - 使用表格并排显示 -->
-  <table style="background: rgba(0,0,0,0.2); border-radius: 12px; padding: 10px; border-collapse: separate; border-spacing: 15px; margin: 0 auto;">
-    <tr>
-      <td style="padding: 0; border: none;"><img src="https://github-readme-stats.vercel.app/api?username=li-xiu-qi&show_icons=true&theme=radical&border_radius=10&bg_color=1a1a2e&border_color=ff9a8b&title_color=ff9a8b" alt="GitHub Stats" /></td>
-      <td style="padding: 0; border: none;"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=li-xiu-qi&layout=compact&theme=radical&border_radius=10&bg_color=1a1a2e&border_color=ff9a8b&title_color=ff9a8b" alt="Top Languages" /></td>
-    </tr>
-  </table>
+  <!-- ## Stat -->
+
+  <div align="center">
+  
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=li-xiu-qi&theme=buefy)![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=li-xiu-qi&theme=buefy)![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=li-xiu-qi&theme=buefy&utcOffset=8)![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=li-xiu-qi&theme=buefy)
+  <!-- ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=li-xiu-qi&theme=buefy) -->
+
+  </div>
 </div>
 
 <!-- 其他已注释内容保持不变 -->
