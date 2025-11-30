@@ -43,7 +43,6 @@
 - [Text2Video](https://github.com/li-xiu-qi/Text2Video) - 输入内容主题或者内容，本项目可以生成对应的主题视频（超过1分钟的内容讲解视频） (20 stars)
 - [gen_financial_report](https://github.com/li-xiu-qi/gen_financial_report) - 公司、行业、宏观多模态金融研报生成。 (11 stars)
 - [remote_pdf_parse_serve](https://github.com/li-xiu-qi/remote_pdf_parse_serve) - 基于mineru封装的远程pdf解析服务。 (11 stars)
-
 </div>
 
 <!-- TOP-REPOS-LIST -->
