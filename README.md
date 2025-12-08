@@ -38,7 +38,7 @@
 |------------|-------------|-------|
 | [data_analysis_agent](https://github.com/li-xiu-qi/data_analysis_agent) | 数据分析智能体 (Data Analysis Agent)：基于LLM的智能数据分析智能体 | 124 |
 | [financial_research_report](https://github.com/li-xiu-qi/financial_research_report) | 金融多模态研究报告生成 | 107 |
-| [XiaokeAILabs](https://github.com/li-xiu-qi/XiaokeAILabs) | 筱可的工程实验仓库！ | 100 |
+| [XiaokeAILabs](https://github.com/li-xiu-qi/XiaokeAILabs) | 筱可的工程实验仓库！ | 101 |
 | [Smartlmager](https://github.com/li-xiu-qi/Smartlmager) | 一个基于多模态向量模型及视觉多模态模型构建的图片搜索引擎&管理系统，实现精准的以文搜文，文搜图、以图搜图多种智能检索方式。An image search engine management system built upon multimodal vector models and visual multimodal models, implementing multiple intelligent search methods including precise text-to-text, text-to-image, and image-to-image retrieval. | 74 |
 | [spark_multi_rag](https://github.com/li-xiu-qi/spark_multi_rag) | 科大讯飞多模态RAG图文问答挑战赛 | 54 |
 | [HearSight](https://github.com/li-xiu-qi/HearSight) | HearSight智能视频内容分析工具，支持多源视频(包括 URL和上传文件方式)导入能够从输入的视频源中提取上下文信息，从而提供更精准的 AI问答交互。平台基于视频语义单元进行智能切片，用户可通过问答方式灵活调整切片维度，快速定位所需内容同时，HearSight支持自动生成字幕与要点分段，并具备多语言翻译能力，可对输入视频进行语言转换帮助学生和职场人士高效捕捉视频核心信息，显著提升学习与工作效率。 | 27 |
