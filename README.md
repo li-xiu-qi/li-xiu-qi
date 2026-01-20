@@ -36,7 +36,7 @@
 
 | Repository | Description | Stars |
 |------------|-------------|-------|
-| [data_analysis_agent](https://github.com/li-xiu-qi/data_analysis_agent) | 数据分析智能体 (Data Analysis Agent)：基于LLM的智能数据分析智能体 | 145 |
+| [data_analysis_agent](https://github.com/li-xiu-qi/data_analysis_agent) | 数据分析智能体 (Data Analysis Agent)：基于LLM的智能数据分析智能体 | 146 |
 | [financial_research_report](https://github.com/li-xiu-qi/financial_research_report) | 金融多模态研究报告生成 | 115 |
 | [XiaokeAILabs](https://github.com/li-xiu-qi/XiaokeAILabs) | 筱可的工程实验仓库！ | 106 |
 | [Smartlmager](https://github.com/li-xiu-qi/Smartlmager) | 一个基于多模态向量模型及视觉多模态模型构建的图片搜索引擎&管理系统，实现精准的以文搜文，文搜图、以图搜图多种智能检索方式。An image search engine management system built upon multimodal vector models and visual multimodal models, implementing multiple intelligent search methods including precise text-to-text, text-to-image, and image-to-image retrieval. | 77 |
