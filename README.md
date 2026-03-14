@@ -44,7 +44,7 @@
 | [HearSight](https://github.com/li-xiu-qi/HearSight) | HearSight智能音视频内容分析工具，支持多源视频(包括 URL和上传文件方式)导入能够从输入的视频源中提取上下文信息，从而提供更精准的 AI问答交互。平台基于视频语义单元进行智能切片，用户可通过问答方式灵活调整切片维度，快速定位所需内容同时，HearSight支持自动生成字幕与要点分段，并具备多语言翻译能力，可对输入视频进行语言转换帮助学生和职场人士高效捕捉视频核心信息，显著提升学习与工作效率。 | 34 |
 | [x-pdf2md](https://github.com/li-xiu-qi/x-pdf2md) | 本项目借助飞桨平台，构建起一套创新的多模型协同系统，实现 PDF 文件到 Markdown 文件的高效、精准转换。 | 27 |
 | [Text2Video](https://github.com/li-xiu-qi/Text2Video) | 输入内容主题或者内容，本项目可以生成对应的主题视频（超过1分钟的内容讲解视频） | 20 |
-| [gen_financial_report](https://github.com/li-xiu-qi/gen_financial_report) | 公司、行业、宏观多模态金融研报生成。 | 11 |
+| [gen_financial_report](https://github.com/li-xiu-qi/gen_financial_report) | 公司、行业、宏观多模态金融研报生成。 | 12 |
 | [remote_pdf_parse_serve](https://github.com/li-xiu-qi/remote_pdf_parse_serve) | 基于mineru封装的远程pdf解析服务。 | 11 |
 
 <!-- TOP-REPOS-LIST -->
