@@ -45,7 +45,7 @@
 | [x-pdf2md](https://github.com/li-xiu-qi/x-pdf2md) | 本项目借助飞桨平台，构建起一套创新的多模型协同系统，实现 PDF 文件到 Markdown 文件的高效、精准转换。 | 28 |
 | [Text2Video](https://github.com/li-xiu-qi/Text2Video) | 输入内容主题或者内容，本项目可以生成对应的主题视频（超过1分钟的内容讲解视频） | 22 |
 | [gen_financial_report](https://github.com/li-xiu-qi/gen_financial_report) | 公司、行业、宏观多模态金融研报生成。 | 15 |
-| [afac2026-financial-qa](https://github.com/li-xiu-qi/afac2026-financial-qa) | afac2026赛道四baseline | 13 |
+| [afac2026-financial-qa](https://github.com/li-xiu-qi/afac2026-financial-qa) | afac2026赛道四baseline | 14 |
 
 <!-- TOP-REPOS-LIST -->
 </div>
