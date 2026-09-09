@@ -1,9 +1,8 @@
 name: Update README with Top Starred Repos
 
 on:
-  push:
   schedule:
-    - cron: "0 */1 * * *"  # 每小时运行一次
+    - cron: "0 16 * * *"  # 每天 00:00 (UTC+8) 运行一次
 
 jobs:
   update-readme:
@@ -47,37 +46,41 @@ jobs:
             let readmeContent = '';
             let readmeData;
             try {
-              const { data: data } = await github.rest.repos.getContent({
+              const { data } = await github.rest.repos.getContent({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 path: readmePath
               });
               readmeData = data;
-              readmeContent = Buffer.from(readmeData.content, 'base64').toString('utf-8');
+              readmeContent = Buffer.from(data.content, 'base64').toString('utf-8');
             } catch (error) {
-              console.log('README not found, creating new one');
+              console.log('README not found, will create a new one');
             }
 
-            // 替换或添加列表（假设有占位符<!-- TOP-REPOS-LIST -->）
+            // 拼出写入后的完整内容
             const placeholder = '<!-- TOP-REPOS-LIST -->';
-            if (readmeContent.includes(placeholder)) {
-              readmeContent = readmeContent.replace(placeholder, repoList + '\n' + placeholder);
+            const sectionRegex = /## 🌟 Top Starred Repositories[\s\S]*?<!-- TOP-REPOS-LIST -->/;
+            let newContent;
+            if (sectionRegex.test(readmeContent)) {
+              newContent = readmeContent.replace(sectionRegex, repoList + '\n' + placeholder);
+            } else if (readmeContent.includes(placeholder)) {
+              // 占位符在但缺区块标题：在占位符前插入新区块
+              newContent = readmeContent.replace(placeholder, repoList + '\n' + placeholder);
             } else {
-              readmeContent += '\n' + repoList;
+              newContent = readmeContent + '\n' + repoList;
             }
 
-            // 写入新README
-            await github.rest.repos.createOrUpdateFileContents({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              path: readmePath,
-              message: 'Update top starred repos list',
-              content: Buffer.from(readmeContent).toString('base64'),
-              sha: readmeData ? readmeData.sha : undefined
-            });
-
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update README with top starred repos
-          branch: main
+            // 幂等检查：内容没变化就不写，避免产生空提交
+            if (newContent === readmeContent) {
+              console.log('Top starred repos list unchanged, skipping write.');
+            } else {
+              console.log('Top starred repos list changed, updating README.');
+              await github.rest.repos.createOrUpdateFileContents({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                path: readmePath,
+                message: 'Update top starred repos list',
+                content: Buffer.from(newContent).toString('base64'),
+                sha: readmeData ? readmeData.sha : undefined
+              });
+            }
